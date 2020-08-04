@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "204901491892",
+    "firebase_url": "https://zaregocodechallenge.firebaseio.com",
+    "project_id": "zaregocodechallenge",
+    "storage_bucket": "zaregocodechallenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204901491892:android:1893051d882b8495f223e1",
+        "android_client_info": {
+          "package_name": "com.example.zaregocodechallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204901491892-l2h2lk5chtgsm8at67rth00a3fkrr6gj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zaregocodechallenge",
+            "certificate_hash": "47dfa4c9eaed5008602021742b9194e199cf9301"
+          }
+        },
+        {
+          "client_id": "204901491892-5k447hd5b29u3k3frojr6aa7m2h6ra4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa74j7_r-nzo9cZaAgCmlA4DO3D6RiUGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204901491892-5k447hd5b29u3k3frojr6aa7m2h6ra4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".view.DetailFragment">
+
+    <TextView
+        android:id="@+id/fragmentDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Name: "
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fragmentDetailTextViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/fragmentDetailName"
+        app:layout_constraintStart_toEndOf="@id/fragmentDetailName"
+        app:layout_constraintTop_toTopOf="@id/fragmentDetailName" />
+
+    <TextView
+        android:id="@+id/fragmentDetailLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Last name: "
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragmentDetailName" />
+
+    <TextView
+        android:id="@+id/fragmentDetailTextViewLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/fragmentDetailLastName"
+        app:layout_constraintStart_toEndOf="@id/fragmentDetailLastName"
+        app:layout_constraintTop_toTopOf="@id/fragmentDetailLastName" />
+
+    <TextView
+        android:id="@+id/fragmentDetailNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Phone number: "
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragmentDetailLastName" />
+
+    <TextView
+        android:id="@+id/fragmentDetailTextViewNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/fragmentDetailNumber"
+        app:layout_constraintStart_toEndOf="@id/fragmentDetailNumber"
+        app:layout_constraintTop_toTopOf="@id/fragmentDetailNumber" />
+
+    <Button
+        android:id="@+id/fragmentDetailButtonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="edit entry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragmentDetailNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
